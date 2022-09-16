@@ -1,0 +1,12 @@
+*.csproj
+*.sln
+*.zip
+*.rar
+
+.vs/
+obj/
+Library/
+Temp/
+
+Recordings/
+Res/
