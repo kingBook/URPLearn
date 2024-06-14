@@ -16,7 +16,7 @@ namespace  URPLearn
         RenderTargetHandle m_OpaqueColor;
 
         public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData){
-            if(renderingData.cameraData.renderType != CameraRenderType.Base){
+           /* if(renderingData.cameraData.renderType != CameraRenderType.Base){
                 return;
             }
             if(_pass == null){
@@ -27,7 +27,7 @@ namespace  URPLearn
                 }
             }
             _pass.Setup(renderer.cameraColorTarget,m_OpaqueColor,Downsampling._4xBox);
-            renderer.EnqueuePass(_pass);
+            renderer.EnqueuePass(_pass);*/
         }
 
         private void EnsureMaterialInEditor(){

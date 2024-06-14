@@ -11,12 +11,12 @@ namespace  URPLearn
         private RefractionMaskPass _pass;
         private SSPRGeneratePass _ssprPass;
         public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData){
-            if(renderingData.cameraData.renderType != CameraRenderType.Base){
+            /*if(renderingData.cameraData.renderType != CameraRenderType.Base){
                 return;
             }
             renderer.EnqueuePass(_pass);
-            _ssprPass.ConfigureTarget(renderer.cameraColorTarget,renderer.cameraDepth);
-            renderer.EnqueuePass(_ssprPass);
+            _ssprPass.ConfigureTarget(renderer.cameraColorTargetHandle,renderer.cameraColorTargetHandle);
+            renderer.EnqueuePass(_ssprPass);*/
         }
 
         public override void Create()

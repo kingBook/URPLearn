@@ -17,11 +17,11 @@ namespace URPLearn{
         /// </summary>
         public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
         {
-            if(renderingData.cameraData.renderType != CameraRenderType.Base){
+           /* if(renderingData.cameraData.renderType != CameraRenderType.Base){
                 return;
             }
-            _pass.ConfigureTarget(renderer.cameraColorTarget,renderer.cameraDepth);
-            renderer.EnqueuePass(_pass);
+            _pass.ConfigureTarget(renderer.cameraColorTarget,renderer.cameraDepthTarget);
+            renderer.EnqueuePass(_pass);*/
         }
 
         /// <summary>
